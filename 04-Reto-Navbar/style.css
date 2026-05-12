@@ -65,14 +65,24 @@ a:hover {
   padding: 20px 40px;
 
   /* Enciende Flexbox y distribuye los elementos */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* 2. La Lista de Enlaces */
 .nav-links {
   /* Haz que los enlaces estén en fila y sepáralos */
+  display: flex;
+  gap: 25px;
+  list-style-type: none;
+
 }
 
 /* 3. El grupo de botones */
 .nav-botones {
   /* Haz que los botones estén en fila y sepáralos */
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
